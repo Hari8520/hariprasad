@@ -1,0 +1,13 @@
+class phone:
+    def set_colour(self,colour):
+        self.colour=colour
+    def set_cost(self,cost):
+        self.cost=cost
+    def show_colour(self):
+        return self.colour
+    def show_cost(selfself):
+        return self.cost
+p1=phone()
+p1.set_colour("orange")
+p1.set_cost(500)
+print(p1.show_colour())
